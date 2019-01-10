@@ -58,6 +58,7 @@ header, #container-img img {
 
 header h1{
 	margin: 0 0;
+	padding: 5px 0;
 	font-size: 60px;
 	font-family: 'Libre Baskerville', serif;
 	color: rgb(155, 170, 165);
