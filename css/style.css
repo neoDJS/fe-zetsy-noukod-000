@@ -4,10 +4,15 @@
 
 /*////////// Global Styles //////////*/
 
+body, header, section, footer {
+	margin: 0;
+	padding: 0;
+}
+
 body {
 	background: #F3EBE9;
 	font-size: 100%;
-	font-family: 'Times New Roman', serif; 
+	font-family: 'Times New Roman', serif;
 }
 
 .wrapper {
@@ -18,3 +23,65 @@ body {
 }
 
 /* Write all remaining styles here */
+
+/* {
+	box-sizing: border-box;
+}*/
+
+header {
+  border-style: solid;
+	border-width: 0 0 1px 0;
+	margin: 0 0 4px;
+}
+
+section {
+	min-width: 500px;
+	max-width: 960px;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+  border-style: solid;
+	border-width: 6px;
+}
+
+section img{
+	border-color: rgb(203, 203, 203);
+}
+
+section img:hover{
+	border-color: rgb(113, 127, 122);
+}
+
+header, #container-img img {
+	border-color: rgb(155, 170, 165);
+}
+
+header h1{
+	margin: 0 0;
+	font-size: 60px;
+	color: rgb(155, 170, 165);
+}
+
+h2 {
+	color: rgb(114, 122, 120);
+}
+
+footer {
+	font-size: 12px;
+	float: right;
+}
+
+#about p{
+	font-size: 0.9375em;
+}
+
+.clearfix:after{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+	line-height: 0;
+}
