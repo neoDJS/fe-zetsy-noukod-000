@@ -38,6 +38,7 @@ header {
 section {
 	min-width: 500px;
 	max-width: 960px;
+	padding: 0;
 	margin: 0;
 }
 
